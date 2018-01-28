@@ -10,10 +10,14 @@ namespace LuckyNumbers
     {
         static void Main(string[] args)
         {
-            int jackPot = 3000000;
-            Console.WriteLine("The jack pot is {0:c}", jackPot);
             do
             {
+                Console.WriteLine("Welcome to Lucky Numbers!");
+                Console.WriteLine("You pick six numbers. we will generate six numbers and see if any of those numbers match.");
+                Console.WriteLine("The more you match, the more you win!");
+                int jackPot = 3000000;
+                Console.WriteLine("The jack pot is {0:c}", jackPot);
+                Console.WriteLine("Good Luck");
                 int lowNum = 0;
                 int highNum = 0;
                 Console.WriteLine("Please select the lowest number.");
